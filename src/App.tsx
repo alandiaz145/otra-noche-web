@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState, type FormEvent, type ReactNode } from 'react';
 import {
   ArrowLeft, ArrowRight, ArrowUpRight, CalendarDays, ChevronDown,
-  CircleArrowUpRight, Disc3, Instagram, MapPin, Menu, MessageCircle,
+  Disc3, Instagram, MapPin, Menu, MessageCircle,
   Music2, Plus, ShoppingBag, Ticket, UsersRound, X,
 } from 'lucide-react';
 import { SITE, type View } from './content';
@@ -111,7 +111,7 @@ function App() {
             <span className="hero-side-caption">SOUND / PEOPLE / CULTURE © 2026</span>
           </div>
           <div className="hero-edition">
-            <div className="edition-head"><span>// EDICIÓN {SITE.edition.editionNumber}</span><CircleArrowUpRight size={29} strokeWidth={1.4}/></div>
+            <div className="edition-head"><span>// EDICIÓN {SITE.edition.editionNumber}</span><ArrowUpRight size={29} strokeWidth={1.4}/></div>
             <div className="edition-center">
               <span className="eyebrow">LA PRÓXIMA EXPERIENCIA</span>
               <div className="date-big"><span>{SITE.edition.day}</span><strong>{SITE.edition.month}</strong></div>
